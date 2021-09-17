@@ -20,38 +20,29 @@ X 3 3 0 -100 25 U 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LSA1-rescue_Conn_02x05_Odd_Even-Connector_Generic-lsaa-rescue
+# JSTCONN6_S6B-XH-SM4-TB__LF__SN_
 #
-DEF LSA1-rescue_Conn_02x05_Odd_Even-Connector_Generic-lsaa-rescue J 0 40 Y N 1 F N
-F0 "J" 50 300 50 H V C CNN
-F1 "LSA1-rescue_Conn_02x05_Odd_Even-Connector_Generic-lsaa-rescue" 50 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
+DEF JSTCONN6_S6B-XH-SM4-TB__LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "JSTCONN6_S6B-XH-SM4-TB__LF__SN_" 750 200 50 H V L CNN
+F2 "S6BXHSM4TBLFSN" 750 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/s6b-xh-sm4-tb-lf-sn/jst-manufacturing" 750 0 50 H I L CNN
+F4 "Conn Shrouded Header HDR 6 POS 2.5mm Solder RA SMD Reel" 750 -100 50 H I L CNN "Description"
+F5 "6" 750 -200 50 H I L CNN "Height"
+F6 "JST (JAPAN SOLDERLESS TERMINALS)" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "S6B-XH-SM4-TB (LF)(SN)" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "S6B-XH-SM4-TB (LF)(SN)" 750 -700 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/s6b-xh-sm4-tb-lf-sn/jst-manufacturing" 750 -800 50 H I L CNN "Arrow Price/Stock"
 DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 150 -250 1 1 10 f
-S 150 -195 100 -205 1 1 6 N
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-S 150 205 100 195 1 1 6 N
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_10 10 300 -200 150 L 50 50 1 1 P
-X Pin_2 2 300 200 150 L 50 50 1 1 P
-X Pin_3 3 -200 100 150 R 50 50 1 1 P
-X Pin_4 4 300 100 150 L 50 50 1 1 P
-X Pin_5 5 -200 0 150 R 50 50 1 1 P
-X Pin_6 6 300 0 150 L 50 50 1 1 P
-X Pin_7 7 -200 -100 150 R 50 50 1 1 P
-X Pin_8 8 300 -100 150 L 50 50 1 1 P
-X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 -200 200 L 50 50 0 0 P
+X 4 4 900 -300 200 L 50 50 0 0 P
+X 5 5 900 -400 200 L 50 50 0 0 P
+X 6 6 900 -500 200 L 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -100 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

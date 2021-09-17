@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:LSA1-cache
+LIBS:LSA1F-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -62,7 +62,7 @@ U 1 1 60C719C2
 P 4850 1550
 F 0 "R1" H 4918 1596 50  0000 L CNN
 F 1 "R_US" H 4918 1505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4890 1540 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4890 1540 50  0001 C CNN
 F 3 "~" H 4850 1550 50  0001 C CNN
 	1    4850 1550
 	1    0    0    -1  
@@ -154,7 +154,7 @@ U 1 1 60CA32A4
 P 6600 1550
 F 0 "R2" H 6668 1596 50  0000 L CNN
 F 1 "R_US" H 6668 1505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6640 1540 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6640 1540 50  0001 C CNN
 F 3 "~" H 6600 1550 50  0001 C CNN
 	1    6600 1550
 	1    0    0    -1  
@@ -243,7 +243,7 @@ U 1 1 60CC1964
 P 8450 1550
 F 0 "R3" H 8518 1596 50  0000 L CNN
 F 1 "R_US" H 8518 1505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8490 1540 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8490 1540 50  0001 C CNN
 F 3 "~" H 8450 1550 50  0001 C CNN
 	1    8450 1550
 	1    0    0    -1  
@@ -335,7 +335,7 @@ U 1 1 60CC199E
 P 10200 1550
 F 0 "R4" H 10268 1596 50  0000 L CNN
 F 1 "R_US" H 10268 1505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10240 1540 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10240 1540 50  0001 C CNN
 F 3 "~" H 10200 1550 50  0001 C CNN
 	1    10200 1550
 	1    0    0    -1  
@@ -394,63 +394,6 @@ Wire Wire Line
 Connection ~ 2650 5550
 Wire Wire Line
 	1850 6050 1550 6050
-$Comp
-L LSA1-rescue:Conn_02x05_Odd_Even-Connector_Generic-lsaa-rescue J1
-U 1 1 60CD9AFC
-P 9750 4850
-F 0 "J1" H 9800 5267 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 9800 5176 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Vertical_SMD" H 9750 4850 50  0001 C CNN
-F 3 "~" H 9750 4850 50  0001 C CNN
-	1    9750 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L LSA1-rescue:VCC-power-lsaa-rescue #PWR0117
-U 1 1 60CDA037
-P 9100 4950
-F 0 "#PWR0117" H 9100 4800 50  0001 C CNN
-F 1 "VCC" V 9115 5077 50  0000 L CNN
-F 2 "" H 9100 4950 50  0001 C CNN
-F 3 "" H 9100 4950 50  0001 C CNN
-	1    9100 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L LSA1-rescue:GND-power-lsaa-rescue #PWR0118
-U 1 1 60CDB26B
-P 9100 5100
-F 0 "#PWR0118" H 9100 4850 50  0001 C CNN
-F 1 "GND" V 9105 4972 50  0000 R CNN
-F 2 "" H 9100 5100 50  0001 C CNN
-F 3 "" H 9100 5100 50  0001 C CNN
-	1    9100 5100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9550 4950 9100 4950
-Wire Wire Line
-	9550 5050 9450 5050
-Wire Wire Line
-	9450 5050 9450 5100
-Wire Wire Line
-	9450 5100 9100 5100
-Text GLabel 10350 4750 2    50   Input ~ 0
-04
-Text GLabel 10350 4850 2    50   Input ~ 0
-03
-Text GLabel 10350 4950 2    50   Input ~ 0
-02
-Text GLabel 10350 5050 2    50   Input ~ 0
-01
-Wire Wire Line
-	10050 5050 10350 5050
-Wire Wire Line
-	10350 4950 10050 4950
-Wire Wire Line
-	10050 4850 10350 4850
-Wire Wire Line
-	10050 4750 10350 4750
 $Comp
 L LSA1-rescue:LM324N_NOPB-LM324N_NOPB-lsaa-rescue U1
 U 1 1 60CD3946
@@ -729,4 +672,83 @@ Wire Wire Line
 	9350 1800 9350 1950
 Wire Wire Line
 	9350 2150 9350 2350
+Text GLabel 8800 5350 3    50   Input ~ 0
+01
+Text GLabel 8700 5350 3    50   Input ~ 0
+02
+Text GLabel 8600 5350 3    50   Input ~ 0
+03
+Text GLabel 8500 5350 3    50   Input ~ 0
+04
+$Comp
+L LSA1-rescue:VCC-power-lsaa-rescue #PWR0117
+U 1 1 60CDA037
+P 8900 5350
+F 0 "#PWR0117" H 8900 5200 50  0001 C CNN
+F 1 "VCC" V 8915 5477 50  0000 L CNN
+F 2 "" H 8900 5350 50  0001 C CNN
+F 3 "" H 8900 5350 50  0001 C CNN
+	1    8900 5350
+	1    0    0    1   
+$EndComp
+$Comp
+L LSA1-rescue:GND-power-lsaa-rescue #PWR0118
+U 1 1 60CDB26B
+P 9000 5350
+F 0 "#PWR0118" H 9000 5100 50  0001 C CNN
+F 1 "GND" V 9005 5222 50  0000 R CNN
+F 2 "" H 9000 5350 50  0001 C CNN
+F 3 "" H 9000 5350 50  0001 C CNN
+	1    9000 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4700 9000 4750
+Wire Wire Line
+	8900 4700 8900 4750
+Wire Wire Line
+	8800 4700 8800 4750
+Wire Wire Line
+	8700 4700 8700 4750
+Wire Wire Line
+	8600 4700 8600 4750
+Wire Wire Line
+	8500 4700 8500 4750
+$Comp
+L JSTCONN6:S6B-XH-SM4-TB__LF__SN_ J1
+U 1 1 614475B4
+P 8500 3850
+F 0 "J1" V 8904 3978 50  0000 L CNN
+F 1 "S6B-XH-SM4-TB__LF__SN_" V 8995 3978 50  0000 L CNN
+F 2 "S6BXHSM4TBLFSN" H 9250 3950 50  0001 L CNN
+F 3 "https://www.arrow.com/en/products/s6b-xh-sm4-tb-lf-sn/jst-manufacturing" H 9250 3850 50  0001 L CNN
+F 4 "Conn Shrouded Header HDR 6 POS 2.5mm Solder RA SMD Reel" H 9250 3750 50  0001 L CNN "Description"
+F 5 "6" H 9250 3650 50  0001 L CNN "Height"
+F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 9250 3550 50  0001 L CNN "Manufacturer_Name"
+F 7 "S6B-XH-SM4-TB (LF)(SN)" H 9250 3450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 9250 3350 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 9250 3250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "S6B-XH-SM4-TB (LF)(SN)" H 9250 3150 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/s6b-xh-sm4-tb-lf-sn/jst-manufacturing" H 9250 3050 50  0001 L CNN "Arrow Price/Stock"
+	1    8500 3850
+	0    -1   1    0   
+$EndComp
+Connection ~ 8500 4750
+Wire Wire Line
+	8500 4750 8500 5350
+Connection ~ 8600 4750
+Wire Wire Line
+	8600 4750 8600 5350
+Connection ~ 8700 4750
+Wire Wire Line
+	8700 4750 8700 5350
+Connection ~ 8800 4750
+Wire Wire Line
+	8800 4750 8800 5350
+Connection ~ 8900 4750
+Wire Wire Line
+	8900 4750 8900 5350
+Connection ~ 9000 4750
+Wire Wire Line
+	9000 4750 9000 5350
 $EndSCHEMATC
