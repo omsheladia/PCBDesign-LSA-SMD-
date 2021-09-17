@@ -6,7 +6,6 @@ This repository contains hardware design files and datasheets for the Line Senso
 Coming soon with a finalised touch.
 
 ## Features
-* Detachable I.C. for easy project based modifications.
 * Components can be proctured easily.
 * Easy connections for output signals.
 * Compact enough to fit into any project.
@@ -31,16 +30,16 @@ FRC Connector | Connect PCB with other circuits
 To view/modify the files from this repository, install KiCAD from: https://kicad.org
 
 ## Layout
-![](https://user-images.githubusercontent.com/84867886/123317781-08fd9780-d54c-11eb-80e1-88f85f222408.png)
+![](https://github.com/omsheladia/PCBDesign-LSA-SMD-/blob/main/assets/Screenshot%202021-09-18%20at%2012.05.15%20AM.png)
 
 ## Plots
 
 ### Front View 
-![Front view](https://user-images.githubusercontent.com/84867886/122984817-0fa8d500-d3bb-11eb-897a-83394be58bb3.png)
+![Front view](https://github.com/omsheladia/PCBDesign-LSA-SMD-/blob/main/assets/LSA1FV.png)
 
 
 ### Back View
-![Back View](https://user-images.githubusercontent.com/84867886/123318060-6c87c500-d54c-11eb-9f0d-ae11877c7582.png)
+![Back View](https://github.com/omsheladia/PCBDesign-LSA-SMD-/blob/main/assets/LSA1bv.png)
 
 
 
