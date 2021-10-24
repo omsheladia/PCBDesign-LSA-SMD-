@@ -30,7 +30,8 @@ FRC Connector | Connect PCB with other circuits
 To view/modify the files from this repository, install KiCAD from: https://kicad.org
 
 ## Layout
-![](https://github.com/omsheladia/PCBDesign-LSA-SMD-/blob/main/assets/Screenshot%202021-09-18%20at%2012.05.15%20AM.png)
+![](https://user-images.githubusercontent.com/84867886/138608243-4d894013-adde-44f1-b249-5ce8d1190c38.png)
+
 
 ## Plots
 
